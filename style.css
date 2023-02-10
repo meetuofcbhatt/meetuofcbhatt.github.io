@@ -1,0 +1,307 @@
+#navigation
+{
+    font-family:helvetica;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(244, 243, 243);
+    border-color: gray;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+p.nav_element
+{
+    display: inline-block;
+    color: purple;
+    margin-block: 5px;
+    margin-inline: 15px;
+    padding: 10px;
+    
+}
+/* blah blach*/
+
+/* Navigation element*/
+a.nav:link, a.nav:visited
+{
+    text-decoration: none;
+    color: gray;
+    margin-inline: 15px;
+    margin-block: 5px;
+    padding: 10px;
+
+}
+
+/* Navigation elements when hovered over */
+a.nav:link:hover, a.nav:visited:hover
+{
+    color: purple;
+}
+
+#top_bar
+{
+    height: 5px;
+    background-color: purple;
+    margin-left: -8px;
+    margin-right: -8px;
+    
+}
+
+footer.footer
+{
+    height: 10vh;
+    background-color: lightgray;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+
+/* container flex structure */
+div.main
+{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.left
+{
+    
+    flex: 1 0 33%;
+    margin-block: 2%;
+    border-right: 1px solid lightgrey;
+    justify-content: center;
+    
+}
+
+div.right
+{
+    
+    flex: 1 0 67%;
+    margin-block: 2%;
+}
+
+/* containers for flex_table in Experience and eductaion page */
+div.line
+{
+    display:flex;
+    justify-content: space-between;
+}
+
+.start, .end
+{
+    margin-inline: 6%;
+    margin-block:1%;
+}
+
+#new
+{
+    margin-top:2%;
+}
+
+img
+{
+    border-radius: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* right side */
+h1.right, h2.right
+{
+    margin: 6%;
+    font-family: Helvetica;
+    font-weight: normal;
+    color: gray;
+}
+
+h1.right
+{
+    margin-left: 5%;
+    font-family: Helvetica;
+    color: gray;
+}
+
+p.right
+{
+    margin-left: 5%;
+    font-family: Helvetica;
+    color: gray;
+    width: 80%;
+}
+
+table, ul.right
+{
+    margin-left: 5%;
+    font-family: Helvetica;
+    color: gray;
+}
+
+li
+{
+    margin: 3%;
+    margin-left: -2%;
+}
+
+h3.right
+{
+    margin-left: 5%;
+    margin-bottom: 0%;
+    font-family: Helvetica;
+}
+
+/* left side */
+h1.left
+{
+    display: block;
+    text-align: center;
+    font-family: Helvetica;
+    color: gray;
+    font-weight: normal;
+}
+
+h3.left
+{
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    font-family: Helvetica;
+    color: gray;
+}
+
+a.email:link, a.email:visited
+{
+    text-decoration: none;
+    color: purple;
+    width:50%;
+    justify-content: center;
+    position: relative;
+    top: 1%;
+    left: 22%;
+}
+
+
+
+div.link
+{
+    justify-content: center;
+}
+
+/* skills page */
+progress
+{
+    width: 50%;
+    margin-left: 5%;
+}
+
+/* experience page */
+a.link:link, a.link:visited
+{
+    text-decoration: none;
+    color: purple;
+}
+
+a.link:link:hover, a.link:visited:hover
+{
+    text-decoration: none;
+    color: rgb(164, 73, 164)
+}
+
+
+
+@media only screen and (max-width: 800px)
+{
+    /* container flex structure */
+div.main
+{
+    height: 80vh;
+    display: block;
+    justify-content: space-between;
+}
+
+div.left
+{
+    flex: 1 0 33%;
+    margin-block: 2%;
+    border-right: 1px solid lightgrey;
+    justify-content: center;
+    
+}
+
+div.right
+{
+    
+    flex: 1 0 67%;
+    margin-block: 2%;
+}
+
+footer.footer
+{
+    height: 10vh;
+    background-color: lightgray;
+    text-align: center;
+    margin-top: 30%;
+}
+
+a.email:link, a.email:visited
+{
+    text-decoration: none;
+    color: purple;
+    width:50%;
+    justify-content: center;
+    position: relative;
+    top: 1%;
+    left: 40%;
+}
+
+}
+
+@media only screen and (max-width: 710px)
+{
+    a.email:link, a.email:visited
+    {
+        text-decoration: none;
+        color: purple;
+        width:50%;
+        justify-content: center;
+        position: relative;
+        top: 1%;
+        left: 35%;
+        
+    }
+
+}
+
+@media only screen and (min-width: 1100px)
+{
+    a.email:link, a.email:visited
+    {
+        text-decoration: none;
+        color: purple;
+        width:50%;
+        justify-content: center;
+        position: relative;
+        top: 1%;
+        left: 29%;
+        
+    }
+}
+
+@media only screen and (min-width: 1360px)
+{
+    a.email:link, a.email:visited
+    {
+        text-decoration: none;
+        color: purple;
+        width:50%;
+        justify-content: center;
+        position: relative;
+        top: 1%;
+        left: 33%;
+        
+    }
+}
